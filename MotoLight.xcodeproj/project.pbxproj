@@ -15,6 +15,9 @@
 		C02A845F1E40E4AC0030648B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02A845D1E40E4AC0030648B /* LaunchScreen.storyboard */; };
 		C02A846A1E40E4AC0030648B /* MotoLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84691E40E4AC0030648B /* MotoLightTests.m */; };
 		C02A84751E40E4AC0030648B /* MotoLightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84741E40E4AC0030648B /* MotoLightUITests.m */; };
+		C0E23941F1C82AAC037463A0 /* libPods-MotoLightUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EFBC776B54D67E42B25509 /* libPods-MotoLightUITests.a */; };
+		EB0787C423081995183B33F4 /* libPods-MotoLight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01599CBE1886257FE5A31EF6 /* libPods-MotoLight.a */; };
+		F57BD98B8EBC4CFD380734C7 /* libPods-MotoLightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBB5622B7B6B40C69856841 /* libPods-MotoLightTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01599CBE1886257FE5A31EF6 /* libPods-MotoLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotoLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3566F0A06DF476CB2603ED08 /* Pods-MotoLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotoLight/Pods-MotoLight.release.xcconfig"; sourceTree = "<group>"; };
+		48AC78BEB8A4CC2DCE026A1D /* Pods-MotoLightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoLightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotoLightTests/Pods-MotoLightTests.release.xcconfig"; sourceTree = "<group>"; };
+		66EFBC776B54D67E42B25509 /* libPods-MotoLightUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotoLightUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E80246587111120855DE4E /* Pods-MotoLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoLightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotoLightUITests/Pods-MotoLightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		837EA89DF3859ACCF11275F8 /* Pods-MotoLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoLightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotoLightTests/Pods-MotoLightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90895FE24604C36F70D403FB /* Pods-MotoLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotoLight/Pods-MotoLight.debug.xcconfig"; sourceTree = "<group>"; };
 		C02A844C1E40E4AC0030648B /* MotoLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02A84501E40E4AC0030648B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C02A84521E40E4AC0030648B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		C02A84761E40E4AC0030648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02A84821E40E4C70030648B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		C02A84831E40E4C70030648B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F0B096DDC0935DC531110F76 /* Pods-MotoLightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoLightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotoLightUITests/Pods-MotoLightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEBB5622B7B6B40C69856841 /* libPods-MotoLightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotoLightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0787C423081995183B33F4 /* libPods-MotoLight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57BD98B8EBC4CFD380734C7 /* libPods-MotoLightTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E23941F1C82AAC037463A0 /* libPods-MotoLightUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				C02A84681E40E4AC0030648B /* MotoLightTests */,
 				C02A84731E40E4AC0030648B /* MotoLightUITests */,
 				C02A844D1E40E4AC0030648B /* Products */,
+				C8CE4F4243461FA0079B4BE5 /* Pods */,
+				CB4CCDB7C52F7BF6F73E9A41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +159,29 @@
 			path = MotoLightUITests;
 			sourceTree = "<group>";
 		};
+		C8CE4F4243461FA0079B4BE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90895FE24604C36F70D403FB /* Pods-MotoLight.debug.xcconfig */,
+				3566F0A06DF476CB2603ED08 /* Pods-MotoLight.release.xcconfig */,
+				837EA89DF3859ACCF11275F8 /* Pods-MotoLightTests.debug.xcconfig */,
+				48AC78BEB8A4CC2DCE026A1D /* Pods-MotoLightTests.release.xcconfig */,
+				F0B096DDC0935DC531110F76 /* Pods-MotoLightUITests.debug.xcconfig */,
+				78E80246587111120855DE4E /* Pods-MotoLightUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB4CCDB7C52F7BF6F73E9A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01599CBE1886257FE5A31EF6 /* libPods-MotoLight.a */,
+				FEBB5622B7B6B40C69856841 /* libPods-MotoLightTests.a */,
+				66EFBC776B54D67E42B25509 /* libPods-MotoLightUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C02A84791E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLight" */;
 			buildPhases = (
+				F43318B7A6062DAFD9DD2938 /* [CP] Check Pods Manifest.lock */,
 				C02A84481E40E4AC0030648B /* Sources */,
 				C02A84491E40E4AC0030648B /* Frameworks */,
 				C02A844A1E40E4AC0030648B /* Resources */,
+				91A3C7ABD193403DEC4D8770 /* [CP] Embed Pods Frameworks */,
+				8A6DF639728672E0480031E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C02A847C1E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLightTests" */;
 			buildPhases = (
+				8036394EE2F26782F2623145 /* [CP] Check Pods Manifest.lock */,
 				C02A84611E40E4AC0030648B /* Sources */,
 				C02A84621E40E4AC0030648B /* Frameworks */,
 				C02A84631E40E4AC0030648B /* Resources */,
+				DB36253AED75B80AD39B56E8 /* [CP] Embed Pods Frameworks */,
+				81EB2DE513F22D9AA427D964 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C02A847F1E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLightUITests" */;
 			buildPhases = (
+				B5CD0759C62C3D50F45464D8 /* [CP] Check Pods Manifest.lock */,
 				C02A846C1E40E4AC0030648B /* Sources */,
 				C02A846D1E40E4AC0030648B /* Frameworks */,
 				C02A846E1E40E4AC0030648B /* Resources */,
+				496449F1DACAEA452DB29F38 /* [CP] Embed Pods Frameworks */,
+				6572B1453AB052ED172C3BEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +318,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		496449F1DACAEA452DB29F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotoLightUITests/Pods-MotoLightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6572B1453AB052ED172C3BEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotoLightUITests/Pods-MotoLightUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8036394EE2F26782F2623145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81EB2DE513F22D9AA427D964 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotoLightTests/Pods-MotoLightTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A6DF639728672E0480031E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotoLight/Pods-MotoLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A3C7ABD193403DEC4D8770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotoLight/Pods-MotoLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5CD0759C62C3D50F45464D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB36253AED75B80AD39B56E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotoLightTests/Pods-MotoLightTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43318B7A6062DAFD9DD2938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C02A84481E40E4AC0030648B /* Sources */ = {
@@ -428,6 +615,7 @@
 		};
 		C02A847A1E40E4AC0030648B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90895FE24604C36F70D403FB /* Pods-MotoLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MotoLight/Info.plist;
@@ -440,6 +628,7 @@
 		};
 		C02A847B1E40E4AC0030648B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3566F0A06DF476CB2603ED08 /* Pods-MotoLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MotoLight/Info.plist;
@@ -452,6 +641,7 @@
 		};
 		C02A847D1E40E4AC0030648B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837EA89DF3859ACCF11275F8 /* Pods-MotoLightTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MotoLightTests/Info.plist;
@@ -464,6 +654,7 @@
 		};
 		C02A847E1E40E4AC0030648B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AC78BEB8A4CC2DCE026A1D /* Pods-MotoLightTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MotoLightTests/Info.plist;
@@ -476,6 +667,7 @@
 		};
 		C02A84801E40E4AC0030648B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B096DDC0935DC531110F76 /* Pods-MotoLightUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MotoLightUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +679,7 @@
 		};
 		C02A84811E40E4AC0030648B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E80246587111120855DE4E /* Pods-MotoLightUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MotoLightUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
