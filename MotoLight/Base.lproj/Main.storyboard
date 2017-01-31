@@ -20,16 +20,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kawasaki-vulcan-1700-voyager-Front" translatesAutoresizingMaskIntoConstraints="NO" id="pFa-gR-qsB">
+                                <rect key="frame" x="-65" y="281" width="325" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2009 Kawasaki Vulcan 1700 Voyager" translatesAutoresizingMaskIntoConstraints="NO" id="tPi-tq-8eD">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kawasaki-vulcan-1700-voyager-Back" translatesAutoresizingMaskIntoConstraints="NO" id="U0I-y5-rXM">
                                 <rect key="frame" x="179" y="281" width="196" height="252"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kawasaki-vulcan-1700-voyager-Front" translatesAutoresizingMaskIntoConstraints="NO" id="1GX-1w-Qb8">
-                                <rect key="frame" x="-83" y="281" width="345" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
