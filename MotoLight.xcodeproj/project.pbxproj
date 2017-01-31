@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02A84511E40E4AC0030648B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84501E40E4AC0030648B /* main.m */; };
+		C02A84541E40E4AC0030648B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84531E40E4AC0030648B /* AppDelegate.m */; };
+		C02A84571E40E4AC0030648B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84561E40E4AC0030648B /* ViewController.m */; };
+		C02A845A1E40E4AC0030648B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02A84581E40E4AC0030648B /* Main.storyboard */; };
+		C02A845C1E40E4AC0030648B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02A845B1E40E4AC0030648B /* Assets.xcassets */; };
+		C02A845F1E40E4AC0030648B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02A845D1E40E4AC0030648B /* LaunchScreen.storyboard */; };
+		C02A846A1E40E4AC0030648B /* MotoLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84691E40E4AC0030648B /* MotoLightTests.m */; };
+		C02A84751E40E4AC0030648B /* MotoLightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A84741E40E4AC0030648B /* MotoLightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02A84661E40E4AC0030648B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02A84441E40E4AC0030648B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02A844B1E40E4AC0030648B;
+			remoteInfo = MotoLight;
+		};
+		C02A84711E40E4AC0030648B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02A84441E40E4AC0030648B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02A844B1E40E4AC0030648B;
+			remoteInfo = MotoLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02A844C1E40E4AC0030648B /* MotoLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A84501E40E4AC0030648B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C02A84521E40E4AC0030648B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C02A84531E40E4AC0030648B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C02A84551E40E4AC0030648B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C02A84561E40E4AC0030648B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C02A84591E40E4AC0030648B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02A845B1E40E4AC0030648B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02A845E1E40E4AC0030648B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02A84601E40E4AC0030648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02A84651E40E4AC0030648B /* MotoLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A84691E40E4AC0030648B /* MotoLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotoLightTests.m; sourceTree = "<group>"; };
+		C02A846B1E40E4AC0030648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02A84701E40E4AC0030648B /* MotoLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A84741E40E4AC0030648B /* MotoLightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotoLightUITests.m; sourceTree = "<group>"; };
+		C02A84761E40E4AC0030648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02A84491E40E4AC0030648B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A84621E40E4AC0030648B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A846D1E40E4AC0030648B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02A84431E40E4AC0030648B = {
+			isa = PBXGroup;
+			children = (
+				C02A844E1E40E4AC0030648B /* MotoLight */,
+				C02A84681E40E4AC0030648B /* MotoLightTests */,
+				C02A84731E40E4AC0030648B /* MotoLightUITests */,
+				C02A844D1E40E4AC0030648B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02A844D1E40E4AC0030648B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02A844C1E40E4AC0030648B /* MotoLight.app */,
+				C02A84651E40E4AC0030648B /* MotoLightTests.xctest */,
+				C02A84701E40E4AC0030648B /* MotoLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02A844E1E40E4AC0030648B /* MotoLight */ = {
+			isa = PBXGroup;
+			children = (
+				C02A84521E40E4AC0030648B /* AppDelegate.h */,
+				C02A84531E40E4AC0030648B /* AppDelegate.m */,
+				C02A84551E40E4AC0030648B /* ViewController.h */,
+				C02A84561E40E4AC0030648B /* ViewController.m */,
+				C02A84581E40E4AC0030648B /* Main.storyboard */,
+				C02A845B1E40E4AC0030648B /* Assets.xcassets */,
+				C02A845D1E40E4AC0030648B /* LaunchScreen.storyboard */,
+				C02A84601E40E4AC0030648B /* Info.plist */,
+				C02A844F1E40E4AC0030648B /* Supporting Files */,
+			);
+			path = MotoLight;
+			sourceTree = "<group>";
+		};
+		C02A844F1E40E4AC0030648B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02A84501E40E4AC0030648B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C02A84681E40E4AC0030648B /* MotoLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02A84691E40E4AC0030648B /* MotoLightTests.m */,
+				C02A846B1E40E4AC0030648B /* Info.plist */,
+			);
+			path = MotoLightTests;
+			sourceTree = "<group>";
+		};
+		C02A84731E40E4AC0030648B /* MotoLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C02A84741E40E4AC0030648B /* MotoLightUITests.m */,
+				C02A84761E40E4AC0030648B /* Info.plist */,
+			);
+			path = MotoLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02A844B1E40E4AC0030648B /* MotoLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A84791E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLight" */;
+			buildPhases = (
+				C02A84481E40E4AC0030648B /* Sources */,
+				C02A84491E40E4AC0030648B /* Frameworks */,
+				C02A844A1E40E4AC0030648B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoLight;
+			productName = MotoLight;
+			productReference = C02A844C1E40E4AC0030648B /* MotoLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02A84641E40E4AC0030648B /* MotoLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A847C1E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLightTests" */;
+			buildPhases = (
+				C02A84611E40E4AC0030648B /* Sources */,
+				C02A84621E40E4AC0030648B /* Frameworks */,
+				C02A84631E40E4AC0030648B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02A84671E40E4AC0030648B /* PBXTargetDependency */,
+			);
+			name = MotoLightTests;
+			productName = MotoLightTests;
+			productReference = C02A84651E40E4AC0030648B /* MotoLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C02A846F1E40E4AC0030648B /* MotoLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A847F1E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLightUITests" */;
+			buildPhases = (
+				C02A846C1E40E4AC0030648B /* Sources */,
+				C02A846D1E40E4AC0030648B /* Frameworks */,
+				C02A846E1E40E4AC0030648B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02A84721E40E4AC0030648B /* PBXTargetDependency */,
+			);
+			name = MotoLightUITests;
+			productName = MotoLightUITests;
+			productReference = C02A84701E40E4AC0030648B /* MotoLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02A84441E40E4AC0030648B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Konstantin Orlov";
+				TargetAttributes = {
+					C02A844B1E40E4AC0030648B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C02A84641E40E4AC0030648B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C02A844B1E40E4AC0030648B;
+					};
+					C02A846F1E40E4AC0030648B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C02A844B1E40E4AC0030648B;
+					};
+				};
+			};
+			buildConfigurationList = C02A84471E40E4AC0030648B /* Build configuration list for PBXProject "MotoLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02A84431E40E4AC0030648B;
+			productRefGroup = C02A844D1E40E4AC0030648B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02A844B1E40E4AC0030648B /* MotoLight */,
+				C02A84641E40E4AC0030648B /* MotoLightTests */,
+				C02A846F1E40E4AC0030648B /* MotoLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02A844A1E40E4AC0030648B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A845F1E40E4AC0030648B /* LaunchScreen.storyboard in Resources */,
+				C02A845C1E40E4AC0030648B /* Assets.xcassets in Resources */,
+				C02A845A1E40E4AC0030648B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A84631E40E4AC0030648B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A846E1E40E4AC0030648B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02A84481E40E4AC0030648B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A84571E40E4AC0030648B /* ViewController.m in Sources */,
+				C02A84541E40E4AC0030648B /* AppDelegate.m in Sources */,
+				C02A84511E40E4AC0030648B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A84611E40E4AC0030648B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A846A1E40E4AC0030648B /* MotoLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A846C1E40E4AC0030648B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A84751E40E4AC0030648B /* MotoLightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02A84671E40E4AC0030648B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02A844B1E40E4AC0030648B /* MotoLight */;
+			targetProxy = C02A84661E40E4AC0030648B /* PBXContainerItemProxy */;
+		};
+		C02A84721E40E4AC0030648B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02A844B1E40E4AC0030648B /* MotoLight */;
+			targetProxy = C02A84711E40E4AC0030648B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C02A84581E40E4AC0030648B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02A84591E40E4AC0030648B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C02A845D1E40E4AC0030648B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02A845E1E40E4AC0030648B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02A84771E40E4AC0030648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02A84781E40E4AC0030648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02A847A1E40E4AC0030648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotoLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xhome.MotoLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02A847B1E40E4AC0030648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotoLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xhome.MotoLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C02A847D1E40E4AC0030648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotoLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xhome.MotoLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoLight.app/MotoLight";
+			};
+			name = Debug;
+		};
+		C02A847E1E40E4AC0030648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotoLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xhome.MotoLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoLight.app/MotoLight";
+			};
+			name = Release;
+		};
+		C02A84801E40E4AC0030648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotoLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xhome.MotoLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MotoLight;
+			};
+			name = Debug;
+		};
+		C02A84811E40E4AC0030648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotoLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xhome.MotoLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MotoLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02A84471E40E4AC0030648B /* Build configuration list for PBXProject "MotoLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A84771E40E4AC0030648B /* Debug */,
+				C02A84781E40E4AC0030648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02A84791E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A847A1E40E4AC0030648B /* Debug */,
+				C02A847B1E40E4AC0030648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C02A847C1E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A847D1E40E4AC0030648B /* Debug */,
+				C02A847E1E40E4AC0030648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C02A847F1E40E4AC0030648B /* Build configuration list for PBXNativeTarget "MotoLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A84801E40E4AC0030648B /* Debug */,
+				C02A84811E40E4AC0030648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02A84441E40E4AC0030648B /* Project object */;
+}
