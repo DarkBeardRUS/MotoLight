@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01172FC25DC192BF01C47B4440669112 /* RZBUUIDPath.m in Sources */ = {isa = PBXBuildFile; fileRef = AF330228892FC29112C54F28ECEB04ED /* RZBUUIDPath.m */; };
+		079E2EB330A4879538C4F314AAA636E5 /* RZBUserInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = B98A4FC3A6BFAAA353C067308CA49445 /* RZBUserInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09AF9D3D3142F8D2D5AB3A83CF6236E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		1341A7AC2439CB63D459D32EF985A414 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A34591497548F6DCE073EC285EE80B1 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AAA3C5CECAAEB0CF9DF2A21C0A8069B /* RZBCommandDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D3CD32F1F14C2845BC450AA4AF10FD /* RZBCommandDispatch.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1D6AAC40C49B5CFB8A10AD4E657F9417 /* RZBLog+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B050187F46B8D82DC6C996BCAB6364 /* RZBLog+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		23DC78E30FE81EA1D14E30C897245F31 /* RZBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6B8323F79D4DDB643C4B492D4C1D7 /* RZBPeripheral.m */; };
+		247D9B113129BCEDABFEE6557981DCFF /* RZBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3B65ADCA85BED6ACF09BA3B2AB2A0F /* RZBLog.m */; };
+		2579663181BFA8F7DA4B5D7CF8537FC0 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFE19F22A0232B500697B53671995A4 /* UIActivityIndicatorView+AFNetworking.m */; };
+		2843898C40D365BC1361BF1CD832E9B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CB4FD24578B35484925C4D9A27FC62 /* CoreGraphics.framework */; };
+		2EBAA518CB8B2DAF89A63637091D4615 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BFF4710479DEF3DD046C34ADBBB0B4 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31742C9D0108173FBF6E404AE5F8AB4E /* RZBCentralManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AF23EE0A4B2271C98F3A3D692E67D1 /* RZBCentralManager+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		31ED9BD97AF9E62874AF3CDF2F8090CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E10DD941B0F7792D4247061BF3582FBE /* AFNetworkActivityIndicatorManager.m */; };
+		3628E865B994BBAFC3D6B31B362C2296 /* RZBPeripheral+RZBBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0D80EBCB90DE1107C3159D7692A812 /* RZBPeripheral+RZBBattery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		416250AD30B4A2A2C18C2EC149AEA83E /* CBUUID+RZBPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C6B5FE54F8C01A03AEBCC5A9A1B2E /* CBUUID+RZBPublic.m */; };
+		42A06298E5D2518DFA869981EC0FB0A9 /* RZBDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A1E7FB103972A235A28506E02FA109 /* RZBDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462D20F90BE0A6A28E05014E970EFA91 /* RZBPeripheralStateEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 461FD33499471972F6A183808C633A4C /* RZBPeripheralStateEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46401F3C7FF0B0CFE2E9B14914780835 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D403DDE7888ACD47D624DD7E67CD86 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A67AE4A8B67BD10645C683F87C00176 /* Pods-MotoLight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2301A33BAD5E58089863721EC93ED /* Pods-MotoLight-dummy.m */; };
+		4BBA25C70D178D418F683135A631A88B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		54F59E9535A8EF3C3999C485DC63AF4B /* RZBCommandDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D02A2140F9B548C63F8762A395C14 /* RZBCommandDispatch.m */; };
+		5719F06B809080CDEF7E6BC75DEA1A3C /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0457A6F1B1A475D521D418467FC23C46 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575934675F148FCA60496B76DF0DB55D /* RZBScanInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF930A6A6778F0EA65201F83C41033C3 /* RZBScanInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5945033488F9995134DBB7014DE2412F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 572159AA778D5314E342D17647A7239E /* AFURLRequestSerialization.m */; };
+		5C0696B2AD1DC23F6473F5A19FAB6296 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FCA58A157C0358A908E50A4006BA96 /* AFImageDownloader.m */; };
+		5FA5D318AA9604692977CDB065CE001B /* RZBErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 32211B731B268C857C1B61A89F59D1A5 /* RZBErrors.m */; };
+		607A6CB570FEADE7F1C79017D6C73D45 /* RZBHeartRateMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEF7E1063EA0DD42177483790C4C08 /* RZBHeartRateMeasurement.m */; };
+		62F1E633F1F97E33349A6A63A26CDF0E /* RZBErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = D7678393B989A0D5CDDBF783DE7667DF /* RZBErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F0E89C282F470546F562E81AB524FD /* Pods-MotoLightUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F2051BC4E0D7B205EB8A9ACF67C62 /* Pods-MotoLightUITests-dummy.m */; };
+		66635EAAE52FF5571DBCDC626FB8CA86 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CF48C429A82B9EEA110C6CAA936DD5CB /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E1040543AF7BA3DC3731FE17C85F5B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB289D7199DB477F4BDF2721E2F1BA4F /* AFSecurityPolicy.m */; };
+		682B0E603612B6ADBCCF30580F9A4B09 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE2CDABF07572DECEEC508A20E7DB76 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFDEE80947DB55F6B5EB093206EB1DB /* CBService+RZBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E90AC026CFEA45EE3BED36D7D076B5 /* CBService+RZBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B71CE5BA32574F407349C1DA20605B4 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8445B6495D02EC7B5056461F7D458431 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2992AFA3D0F374CA897DC6BA16BFAC /* RZBCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ADCC40479C7CA606110F277F2FF1C6 /* RZBCommand.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		707E818332E5033501DF2D7826C639DF /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = BB36D66893E08E7780743BE3CA32C44D /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72DA908495E91BD2FC2BC2B0711D5DA0 /* RZBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245039485E5F081A567869D6061CF79 /* RZBluetooth-dummy.m */; };
+		73811DA312BCB537D44D62EC6AD15766 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B694F575EAE6BA1D5693B94064A8C12 /* AFHTTPSessionManager.m */; };
+		76C850E0D8D399352D905254A8C18819 /* RZBCentralManager+CommandHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6C4BBE997682E334D3346878A907A /* RZBCentralManager+CommandHelper.m */; };
+		775CE7A8107457BDE59F113D40020839 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F927B405615DC27E82927DB3D66A3 /* AFAutoPurgingImageCache.m */; };
+		82838FE36F075285FC0C6112407DF403 /* RZBUUIDPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AA644D5ED86814DB3479200E07800D /* RZBUUIDPath.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85D30678FF4F0AB306399A368EAA46B2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A81EB6FEBE723EFC805911B16C7F1B2 /* AFURLResponseSerialization.m */; };
+		8958F2453EEBAF71BFEBD78FB48986EC /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DDA36217A5E7A0958AFD919B8EDEEB /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE8CD58BA7DF2C281B535A52A4264C1 /* RZBCentralManager+CommandHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9340015381270936A7CF2A1339CF25 /* RZBCentralManager+CommandHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8B1E1A45E0B423395CE2A513BB1B1010 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268F47AC608D1CB011B9CAEAEA7B8824 /* MobileCoreServices.framework */; };
+		97A86FAAD4B1AD9B3292FF6AF1D8F82B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F40D0E704DB71168943650F12CF99CA7 /* AFNetworking-dummy.m */; };
+		987FA819EA682CDD5FFF0D90A172E280 /* RZBCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0DA6B34C0D53B1FA8DEE9214884DC2 /* RZBCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98AF0A97F0664860C195DC3F75FDD4CB /* RZBHeartRateMeasurement.h in Headers */ = {isa = PBXBuildFile; fileRef = A88FA7E45A24966D4A7E6A13F29BA35F /* RZBHeartRateMeasurement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99605FB263AB200C93FDBCC6C93CAE12 /* RZBBluetoothRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E89FA0F56872178ACC63C3C9E0D4B72 /* RZBBluetoothRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3B68DA79D3BD6C5C8085FA106A0E78 /* RZBDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1461FADC12209EB22618D795DAEF0510 /* RZBDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5BB6B4995BA4A3B2C6AEBA6C31A6DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 220891B9D9733EA5A1330585DE54A8F3 /* AFURLSessionManager.m */; };
+		9F6E8B041DFDEFC864B793B1EF54CE68 /* RZBLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3109628848634518F455EC99EAADC730 /* RZBLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A277AD9070E44BED5A7DE0B1D64D6F15 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBAC0F2863B380B444E572247D8518 /* UIImageView+AFNetworking.m */; };
+		A7F7FDCD36E2DD8D8E346DB19452CC03 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEFA1A1F70F803E06205A8333327E62 /* UIWebView+AFNetworking.m */; };
+		A853ADA3217884F793DCE3AAB8AEBD4C /* RZBPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309924DD6E56E692789FF158609B56B /* RZBPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD0399171FBF6E3D42534C23F209166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		ACD70D56EA98DCE1E4D84B21F499DDBE /* RZBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 217AE565ADB5EF1F2D3D92473D90336A /* RZBCentralManager.m */; };
+		AFD0634B4D580C7C585C242BE0008A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		B017529986D4D5396C9E620070F559CB /* RZBScanInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9D1BC308A0C4539C7AEED861D31ED /* RZBScanInfo.m */; };
+		B1CF639B9F1B76A320A8DB4C0D342659 /* RZBCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C57F914731A022128FB06364A266FC1 /* RZBCommand.m */; };
+		B40756412613B53C80EE77C4C223990F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9551A785DD25A49D9B93AC8673676BEB /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84CD33084C9867E67BD56E47B7BFC04 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B714CA92EC71ED553D42859B99547372 /* UIRefreshControl+AFNetworking.m */; };
+		B8D61EF54626E119C6D9C0E453E2148C /* RZBPeripheral+RZBHeartRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA2AF10F55768A5C8D93D45E693D803 /* RZBPeripheral+RZBHeartRate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93133D6EF58DC0C6DE11B5AFB75B8FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		BDB829531E93CE4449B34EBDE216E9A8 /* RZBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = A64D547B834D8FDB9B2A828C09E5655E /* RZBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA32B13A084F919FDB3194FE6409F31 /* RZBPeripheral+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BA674EE788BCF3745FF3C49FBD741C78 /* RZBPeripheral+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C1C0D7C93BF3DE14A26757273598D0FA /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CD0899950C55362ABCE1FAF865B8BB /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C45FD52138E27076CB3C5F446BFAF62F /* CBUUID+RZBPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9430A951E601ADC8F85F0CD2E79CA0 /* CBUUID+RZBPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10CC46035F7A0C868C0955664A34609 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE768138D6CADF198DBED58B5423321 /* UIButton+AFNetworking.m */; };
+		D145CE8EF449A6058045F178045C827D /* RZBPeripheral+RZBHeartRate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF87F7A4D8C10E7FBC81A127142218 /* RZBPeripheral+RZBHeartRate.m */; };
+		D4AA4704CA7863CC86E22AAF88635836 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BB108CCA271446D3DED89E43124C4304 /* UIProgressView+AFNetworking.m */; };
+		D59FC98A74E440C4725B6FDC28F5951E /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E7135002A3D872FD2BAD3BD46DA815 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5CB999FB5FC80FC126A38AB4DF12227 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D209FCD3E6866E004ADF316EDD5DF1A /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6661D944DA4B5402DA6B57914542DF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3076143126055C32B4622C7091B768 /* Security.framework */; };
+		D667D91CF58008B0C2B899D95B1A4400 /* CBService+RZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D52B07A973E2C77959275F98196CCB9C /* CBService+RZBExtension.m */; };
+		DB9E13F97A6B692106FCCD18AFB6E119 /* RZBPeripheral+RZBBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = A64B324E03E2C040BA35AAD58BA66419 /* RZBPeripheral+RZBBattery.m */; };
+		DE31BBF6A7963C5871A19655EF5532BE /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 38202B2ADC01E468CA9AB4721549B122 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE2C1CED8796501CD35DE92DFBE910F /* Pods-MotoLightTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 153BF085251D0857C9F49EA68533D0A9 /* Pods-MotoLightTests-dummy.m */; };
+		E0EF330DB2D3521ED26E67B2E8687A2E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5668D81DDF9EEE515BB8CEF567445FB9 /* AFNetworkReachabilityManager.m */; };
+		E4C87B5BB5457B0A1F743CB6ED87C24A /* RZBUserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A793B09C7B269384981A0E1C6556CF /* RZBUserInteraction.m */; };
+		E738C16AF8020F2D6948D867AA7109EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */; };
+		E7B0270BEDCBE116DDD853F76E27B0BA /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C2296EA93A3895DCDB095EE64E9D8A79 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC3EB515F669AA14234CA1BE510601D /* RZBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B954A0596A9E04BCD386902BCA8E0DF3 /* RZBDeviceInfo.m */; };
+		F099E5987DD80E8D78E909AF81D3C587 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86664D5E968D9A5058A621172DCEE4 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F93EE1AA5E870F2CE81325CE9EB643 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAB4B7AAEE04E90F52CA58865E0B81C /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CC06F3E0C232483A72DCCFAF393BE0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D33C309C8E0139CF0EC2FE993B14FBF /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22899A87A1A787013CBBFCBBADF072EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E033EDB5EC0819481B0546434FA577B;
+			remoteInfo = AFNetworking;
+		};
+		62A7529995F59C09F22B9829668769B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7452D8B66E97E017BA5131C563F46999;
+			remoteInfo = RZBluetooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0138A08C748CB42C76A154E6FBE73E10 /* libPods-MotoLightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MotoLightTests.a"; path = "libPods-MotoLightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		039DBF8A33C99B4B0ACAF03A74D8098E /* Pods-MotoLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotoLight.debug.xcconfig"; sourceTree = "<group>"; };
+		0457A6F1B1A475D521D418467FC23C46 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		046C6B5FE54F8C01A03AEBCC5A9A1B2E /* CBUUID+RZBPublic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+RZBPublic.m"; path = "RZBluetooth/Profiles/CBUUID+RZBPublic.m"; sourceTree = "<group>"; };
+		09AEF7E1063EA0DD42177483790C4C08 /* RZBHeartRateMeasurement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBHeartRateMeasurement.m; path = RZBluetooth/Profiles/RZBHeartRateMeasurement.m; sourceTree = "<group>"; };
+		09CD0899950C55362ABCE1FAF865B8BB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0AAB4B7AAEE04E90F52CA58865E0B81C /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		0F47865E84FEB7AFDCCAFA6C81C84337 /* Pods-MotoLightTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotoLightTests-frameworks.sh"; sourceTree = "<group>"; };
+		13C9D1BC308A0C4539C7AEED861D31ED /* RZBScanInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBScanInfo.m; path = RZBluetooth/RZBScanInfo.m; sourceTree = "<group>"; };
+		1461FADC12209EB22618D795DAEF0510 /* RZBDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBDefines.h; path = RZBluetooth/RZBDefines.h; sourceTree = "<group>"; };
+		14D3CD32F1F14C2845BC450AA4AF10FD /* RZBCommandDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBCommandDispatch.h; path = RZBluetooth/Command/RZBCommandDispatch.h; sourceTree = "<group>"; };
+		153BF085251D0857C9F49EA68533D0A9 /* Pods-MotoLightTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotoLightTests-dummy.m"; sourceTree = "<group>"; };
+		1ABAC12C04797309DFE5DDBCFA543A0D /* libPods-MotoLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MotoLight.a"; path = "libPods-MotoLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CB4FD24578B35484925C4D9A27FC62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		217AE565ADB5EF1F2D3D92473D90336A /* RZBCentralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBCentralManager.m; path = RZBluetooth/RZBCentralManager.m; sourceTree = "<group>"; };
+		21F8456FC18E1B41389B72FE03A60394 /* Pods-MotoLightTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotoLightTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		220891B9D9733EA5A1330585DE54A8F3 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		268F47AC608D1CB011B9CAEAEA7B8824 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		26F0DAE4489ACAF3A5C6379E3A209C7F /* Pods-MotoLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotoLightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA2AF10F55768A5C8D93D45E693D803 /* RZBPeripheral+RZBHeartRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBPeripheral+RZBHeartRate.h"; path = "RZBluetooth/Profiles/RZBPeripheral+RZBHeartRate.h"; sourceTree = "<group>"; };
+		2F0DA6B34C0D53B1FA8DEE9214884DC2 /* RZBCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBCentralManager.h; path = RZBluetooth/RZBCentralManager.h; sourceTree = "<group>"; };
+		3109628848634518F455EC99EAADC730 /* RZBLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBLog.h; path = RZBluetooth/RZBLog.h; sourceTree = "<group>"; };
+		32211B731B268C857C1B61A89F59D1A5 /* RZBErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBErrors.m; path = RZBluetooth/RZBErrors.m; sourceTree = "<group>"; };
+		33E90AC026CFEA45EE3BED36D7D076B5 /* CBService+RZBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBService+RZBExtension.h"; path = "RZBluetooth/CBService+RZBExtension.h"; sourceTree = "<group>"; };
+		350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36AF23EE0A4B2271C98F3A3D692E67D1 /* RZBCentralManager+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBCentralManager+Private.h"; path = "RZBluetooth/RZBCentralManager+Private.h"; sourceTree = "<group>"; };
+		37C6B8323F79D4DDB643C4B492D4C1D7 /* RZBPeripheral.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBPeripheral.m; path = RZBluetooth/RZBPeripheral.m; sourceTree = "<group>"; };
+		38202B2ADC01E468CA9AB4721549B122 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		40392B2BD5704C3D38285D3D1E631C28 /* Pods-MotoLightUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotoLightUITests-frameworks.sh"; sourceTree = "<group>"; };
+		42D403DDE7888ACD47D624DD7E67CD86 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		43ADCC40479C7CA606110F277F2FF1C6 /* RZBCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBCommand.h; path = RZBluetooth/Command/RZBCommand.h; sourceTree = "<group>"; };
+		461FD33499471972F6A183808C633A4C /* RZBPeripheralStateEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBPeripheralStateEvent.h; path = RZBluetooth/RZBPeripheralStateEvent.h; sourceTree = "<group>"; };
+		4EE768138D6CADF198DBED58B5423321 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		5245039485E5F081A567869D6061CF79 /* RZBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RZBluetooth-dummy.m"; sourceTree = "<group>"; };
+		5668D81DDF9EEE515BB8CEF567445FB9 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		572159AA778D5314E342D17647A7239E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		59AA644D5ED86814DB3479200E07800D /* RZBUUIDPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBUUIDPath.h; path = RZBluetooth/Command/RZBUUIDPath.h; sourceTree = "<group>"; };
+		5A81EB6FEBE723EFC805911B16C7F1B2 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5B694F575EAE6BA1D5693B94064A8C12 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5C3076143126055C32B4622C7091B768 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5C57F914731A022128FB06364A266FC1 /* RZBCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBCommand.m; path = RZBluetooth/Command/RZBCommand.m; sourceTree = "<group>"; };
+		5FC713129BBB40581BD8018BE63A992C /* Pods-MotoLight-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotoLight-acknowledgements.markdown"; sourceTree = "<group>"; };
+		622F6CB3AE679DD0D5E148CF71600C3B /* Pods-MotoLight-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotoLight-acknowledgements.plist"; sourceTree = "<group>"; };
+		66A1E7FB103972A235A28506E02FA109 /* RZBDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBDeviceInfo.h; path = RZBluetooth/Profiles/RZBDeviceInfo.h; sourceTree = "<group>"; };
+		696607BBB69C072AB4D479AB164604BD /* Pods-MotoLightUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotoLightUITests-resources.sh"; sourceTree = "<group>"; };
+		6F580CBA4EAA16B54FBF775C11F46F89 /* Pods-MotoLight-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotoLight-resources.sh"; sourceTree = "<group>"; };
+		76DDA36217A5E7A0958AFD919B8EDEEB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		7A3F2051BC4E0D7B205EB8A9ACF67C62 /* Pods-MotoLightUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotoLightUITests-dummy.m"; sourceTree = "<group>"; };
+		7D209FCD3E6866E004ADF316EDD5DF1A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		7DF531063906220811DAC81913AB27F6 /* RZBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		80FB8F0B0E94922BF6042F17BF9E7FB9 /* libPods-MotoLightUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MotoLightUITests.a"; path = "libPods-MotoLightUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B050187F46B8D82DC6C996BCAB6364 /* RZBLog+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBLog+Private.h"; path = "RZBluetooth/RZBLog+Private.h"; sourceTree = "<group>"; };
+		8445B6495D02EC7B5056461F7D458431 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8566BCCB8636C6864A9E055439769EBA /* Pods-MotoLightTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotoLightTests-resources.sh"; sourceTree = "<group>"; };
+		8747C04AAED3E1C10897852AFC1016A0 /* Pods-MotoLightUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotoLightUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88BFF4710479DEF3DD046C34ADBBB0B4 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		8C6880EF76BB4C7954B751B97455FBA1 /* Pods-MotoLightTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotoLightTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E89FA0F56872178ACC63C3C9E0D4B72 /* RZBBluetoothRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBBluetoothRepresentable.h; path = RZBluetooth/RZBBluetoothRepresentable.h; sourceTree = "<group>"; };
+		8FEFA1A1F70F803E06205A8333327E62 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9309924DD6E56E692789FF158609B56B /* RZBPeripheral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBPeripheral.h; path = RZBluetooth/RZBPeripheral.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9551A785DD25A49D9B93AC8673676BEB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		9A34591497548F6DCE073EC285EE80B1 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		9D33C309C8E0139CF0EC2FE993B14FBF /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		A3A793B09C7B269384981A0E1C6556CF /* RZBUserInteraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBUserInteraction.m; path = RZBluetooth/RZBUserInteraction.m; sourceTree = "<group>"; };
+		A64B324E03E2C040BA35AAD58BA66419 /* RZBPeripheral+RZBBattery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RZBPeripheral+RZBBattery.m"; path = "RZBluetooth/Profiles/RZBPeripheral+RZBBattery.m"; sourceTree = "<group>"; };
+		A64D547B834D8FDB9B2A828C09E5655E /* RZBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBluetooth.h; path = RZBluetooth/RZBluetooth.h; sourceTree = "<group>"; };
+		A88FA7E45A24966D4A7E6A13F29BA35F /* RZBHeartRateMeasurement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBHeartRateMeasurement.h; path = RZBluetooth/Profiles/RZBHeartRateMeasurement.h; sourceTree = "<group>"; };
+		AA9340015381270936A7CF2A1339CF25 /* RZBCentralManager+CommandHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBCentralManager+CommandHelper.h"; path = "RZBluetooth/RZBCentralManager+CommandHelper.h"; sourceTree = "<group>"; };
+		AC7F927B405615DC27E82927DB3D66A3 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		ACDBAC0F2863B380B444E572247D8518 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AF094CD73AA5EABB382524EBF9B2B0ED /* Pods-MotoLightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotoLightTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF330228892FC29112C54F28ECEB04ED /* RZBUUIDPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBUUIDPath.m; path = RZBluetooth/Command/RZBUUIDPath.m; sourceTree = "<group>"; };
+		B3AF87F7A4D8C10E7FBC81A127142218 /* RZBPeripheral+RZBHeartRate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RZBPeripheral+RZBHeartRate.m"; path = "RZBluetooth/Profiles/RZBPeripheral+RZBHeartRate.m"; sourceTree = "<group>"; };
+		B714CA92EC71ED553D42859B99547372 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		B954A0596A9E04BCD386902BCA8E0DF3 /* RZBDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBDeviceInfo.m; path = RZBluetooth/Profiles/RZBDeviceInfo.m; sourceTree = "<group>"; };
+		B98A4FC3A6BFAAA353C067308CA49445 /* RZBUserInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBUserInteraction.h; path = RZBluetooth/RZBUserInteraction.h; sourceTree = "<group>"; };
+		BA674EE788BCF3745FF3C49FBD741C78 /* RZBPeripheral+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBPeripheral+Private.h"; path = "RZBluetooth/RZBPeripheral+Private.h"; sourceTree = "<group>"; };
+		BB108CCA271446D3DED89E43124C4304 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		BB36D66893E08E7780743BE3CA32C44D /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		BD5B5BF2DEA6EE7D821D285FF0B04C3E /* Pods-MotoLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotoLightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF3E67B590ED546F9E29DA6FE95BE6D3 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		C1E7135002A3D872FD2BAD3BD46DA815 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C1E7805151FF2B897953AE088C0AFEAE /* RZBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZBluetooth.xcconfig; sourceTree = "<group>"; };
+		C2296EA93A3895DCDB095EE64E9D8A79 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		CB9430A951E601ADC8F85F0CD2E79CA0 /* CBUUID+RZBPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+RZBPublic.h"; path = "RZBluetooth/Profiles/CBUUID+RZBPublic.h"; sourceTree = "<group>"; };
+		CF48C429A82B9EEA110C6CAA936DD5CB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CF930A6A6778F0EA65201F83C41033C3 /* RZBScanInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBScanInfo.h; path = RZBluetooth/RZBScanInfo.h; sourceTree = "<group>"; };
+		CFE2CDABF07572DECEEC508A20E7DB76 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D52B07A973E2C77959275F98196CCB9C /* CBService+RZBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBService+RZBExtension.m"; path = "RZBluetooth/CBService+RZBExtension.m"; sourceTree = "<group>"; };
+		D6E6CBFF6C232EF2EFC6C72C5BEEB612 /* Pods-MotoLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotoLight.release.xcconfig"; sourceTree = "<group>"; };
+		D7678393B989A0D5CDDBF783DE7667DF /* RZBErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBErrors.h; path = RZBluetooth/RZBErrors.h; sourceTree = "<group>"; };
+		D8070DCBD16990F26E95E56C32A3165B /* Pods-MotoLight-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotoLight-frameworks.sh"; sourceTree = "<group>"; };
+		D889E4FE7938D738B3AC48DA856E0328 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		DB289D7199DB477F4BDF2721E2F1BA4F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		DC86664D5E968D9A5058A621172DCEE4 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		DE441A9905A2F0A076418B7FDDA27D31 /* libRZBluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRZBluetooth.a; path = libRZBluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02B341EABB7CAD8FA941698A5D36325 /* Pods-MotoLightUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotoLightUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E10DD941B0F7792D4247061BF3582FBE /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		E4D119D56BA340B6EE74444E334B6FE1 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6406AB434C9410254AC53231E4370F8 /* Pods-MotoLightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotoLightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8FCA58A157C0358A908E50A4006BA96 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		EA0D80EBCB90DE1107C3159D7692A812 /* RZBPeripheral+RZBBattery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBPeripheral+RZBBattery.h"; path = "RZBluetooth/Profiles/RZBPeripheral+RZBBattery.h"; sourceTree = "<group>"; };
+		EC3B65ADCA85BED6ACF09BA3B2AB2A0F /* RZBLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBLog.m; path = RZBluetooth/RZBLog.m; sourceTree = "<group>"; };
+		EF2D02A2140F9B548C63F8762A395C14 /* RZBCommandDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBCommandDispatch.m; path = RZBluetooth/Command/RZBCommandDispatch.m; sourceTree = "<group>"; };
+		F40D0E704DB71168943650F12CF99CA7 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		F8D2301A33BAD5E58089863721EC93ED /* Pods-MotoLight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotoLight-dummy.m"; sourceTree = "<group>"; };
+		FDD6C4BBE997682E334D3346878A907A /* RZBCentralManager+CommandHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RZBCentralManager+CommandHelper.m"; path = "RZBluetooth/RZBCentralManager+CommandHelper.m"; sourceTree = "<group>"; };
+		FDFE19F22A0232B500697B53671995A4 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41EA2AFA9B6DEDBF3BB82088D26C3202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93133D6EF58DC0C6DE11B5AFB75B8FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916833AC790E01669CEF426108187139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AF9D3D3142F8D2D5AB3A83CF6236E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B8C7FB9F57E426659796A2C3871C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD0399171FBF6E3D42534C23F209166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3284DBE3CA8932733932AD2A48445B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843898C40D365BC1361BF1CD832E9B2 /* CoreGraphics.framework in Frameworks */,
+				AFD0634B4D580C7C585C242BE0008A0E /* Foundation.framework in Frameworks */,
+				8B1E1A45E0B423395CE2A513BB1B1010 /* MobileCoreServices.framework in Frameworks */,
+				D6661D944DA4B5402DA6B57914542DF9 /* Security.framework in Frameworks */,
+				E738C16AF8020F2D6948D867AA7109EF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD318C3597F097EA017212AC0591FA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBA25C70D178D418F683135A631A88B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B55DFFACCD9F333E86E2EF446DD015 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20CB4FD24578B35484925C4D9A27FC62 /* CoreGraphics.framework */,
+				350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */,
+				268F47AC608D1CB011B9CAEAEA7B8824 /* MobileCoreServices.framework */,
+				5C3076143126055C32B4622C7091B768 /* Security.framework */,
+				D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0FFA4D2190EAB0A2FE3696480E896AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D119D56BA340B6EE74444E334B6FE1 /* libAFNetworking.a */,
+				1ABAC12C04797309DFE5DDBCFA543A0D /* libPods-MotoLight.a */,
+				0138A08C748CB42C76A154E6FBE73E10 /* libPods-MotoLightTests.a */,
+				80FB8F0B0E94922BF6042F17BF9E7FB9 /* libPods-MotoLightUITests.a */,
+				DE441A9905A2F0A076418B7FDDA27D31 /* libRZBluetooth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12995DE5E7415559B2B5EE2E8C25EC43 /* Pods-MotoLight */ = {
+			isa = PBXGroup;
+			children = (
+				5FC713129BBB40581BD8018BE63A992C /* Pods-MotoLight-acknowledgements.markdown */,
+				622F6CB3AE679DD0D5E148CF71600C3B /* Pods-MotoLight-acknowledgements.plist */,
+				F8D2301A33BAD5E58089863721EC93ED /* Pods-MotoLight-dummy.m */,
+				D8070DCBD16990F26E95E56C32A3165B /* Pods-MotoLight-frameworks.sh */,
+				6F580CBA4EAA16B54FBF775C11F46F89 /* Pods-MotoLight-resources.sh */,
+				039DBF8A33C99B4B0ACAF03A74D8098E /* Pods-MotoLight.debug.xcconfig */,
+				D6E6CBFF6C232EF2EFC6C72C5BEEB612 /* Pods-MotoLight.release.xcconfig */,
+			);
+			name = "Pods-MotoLight";
+			path = "Target Support Files/Pods-MotoLight";
+			sourceTree = "<group>";
+		};
+		1AC843CE6BFBC0CDC81558173958FD7B /* Pods-MotoLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6880EF76BB4C7954B751B97455FBA1 /* Pods-MotoLightTests-acknowledgements.markdown */,
+				21F8456FC18E1B41389B72FE03A60394 /* Pods-MotoLightTests-acknowledgements.plist */,
+				153BF085251D0857C9F49EA68533D0A9 /* Pods-MotoLightTests-dummy.m */,
+				0F47865E84FEB7AFDCCAFA6C81C84337 /* Pods-MotoLightTests-frameworks.sh */,
+				8566BCCB8636C6864A9E055439769EBA /* Pods-MotoLightTests-resources.sh */,
+				26F0DAE4489ACAF3A5C6379E3A209C7F /* Pods-MotoLightTests.debug.xcconfig */,
+				AF094CD73AA5EABB382524EBF9B2B0ED /* Pods-MotoLightTests.release.xcconfig */,
+			);
+			name = "Pods-MotoLightTests";
+			path = "Target Support Files/Pods-MotoLightTests";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05B55DFFACCD9F333E86E2EF446DD015 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C8FAA6655F0D71FA2A8FB00FE48FAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7805151FF2B897953AE088C0AFEAE /* RZBluetooth.xcconfig */,
+				5245039485E5F081A567869D6061CF79 /* RZBluetooth-dummy.m */,
+				7DF531063906220811DAC81913AB27F6 /* RZBluetooth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RZBluetooth";
+			sourceTree = "<group>";
+		};
+		2B39B29BA3775657241EEEF58D5D4323 /* RZBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC96E5F84576C17992C978492AA67D /* Core */,
+				27C8FAA6655F0D71FA2A8FB00FE48FAB /* Support Files */,
+			);
+			name = RZBluetooth;
+			path = RZBluetooth;
+			sourceTree = "<group>";
+		};
+		2DAEF341831FF39D966E3C619D2A71B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF3E67B590ED546F9E29DA6FE95BE6D3 /* AFNetworking.xcconfig */,
+				F40D0E704DB71168943650F12CF99CA7 /* AFNetworking-dummy.m */,
+				D889E4FE7938D738B3AC48DA856E0328 /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		5FCBD72E904A86D951EE7D86D2563E13 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7135002A3D872FD2BAD3BD46DA815 /* AFSecurityPolicy.h */,
+				DB289D7199DB477F4BDF2721E2F1BA4F /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				DEA527C664691BB6A6C9BA8965B29DBB /* Pods */,
+				0FFA4D2190EAB0A2FE3696480E896AAA /* Products */,
+				D4805453787DD07397EB65AD576204BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBCCCE745EF8776E29636A8AD70F105 /* Pods-MotoLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8747C04AAED3E1C10897852AFC1016A0 /* Pods-MotoLightUITests-acknowledgements.markdown */,
+				E02B341EABB7CAD8FA941698A5D36325 /* Pods-MotoLightUITests-acknowledgements.plist */,
+				7A3F2051BC4E0D7B205EB8A9ACF67C62 /* Pods-MotoLightUITests-dummy.m */,
+				40392B2BD5704C3D38285D3D1E631C28 /* Pods-MotoLightUITests-frameworks.sh */,
+				696607BBB69C072AB4D479AB164604BD /* Pods-MotoLightUITests-resources.sh */,
+				E6406AB434C9410254AC53231E4370F8 /* Pods-MotoLightUITests.debug.xcconfig */,
+				BD5B5BF2DEA6EE7D821D285FF0B04C3E /* Pods-MotoLightUITests.release.xcconfig */,
+			);
+			name = "Pods-MotoLightUITests";
+			path = "Target Support Files/Pods-MotoLightUITests";
+			sourceTree = "<group>";
+		};
+		A2E08D16DC65FD0CC11B880AB7B3A7A7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				42D403DDE7888ACD47D624DD7E67CD86 /* AFNetworking.h */,
+				A409F180164428A316C2C9A86B877805 /* NSURLSession */,
+				DBF15C9FA79E39A0644571E7212DC369 /* Reachability */,
+				5FCBD72E904A86D951EE7D86D2563E13 /* Security */,
+				C3A4513F32AE574406D550948AE27CF0 /* Serialization */,
+				2DAEF341831FF39D966E3C619D2A71B7 /* Support Files */,
+				EE2F3EC213D901D23B06D4710A7E0218 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A409F180164428A316C2C9A86B877805 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				8445B6495D02EC7B5056461F7D458431 /* AFHTTPSessionManager.h */,
+				5B694F575EAE6BA1D5693B94064A8C12 /* AFHTTPSessionManager.m */,
+				9D33C309C8E0139CF0EC2FE993B14FBF /* AFURLSessionManager.h */,
+				220891B9D9733EA5A1330585DE54A8F3 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		C3A4513F32AE574406D550948AE27CF0 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				09CD0899950C55362ABCE1FAF865B8BB /* AFURLRequestSerialization.h */,
+				572159AA778D5314E342D17647A7239E /* AFURLRequestSerialization.m */,
+				CF48C429A82B9EEA110C6CAA936DD5CB /* AFURLResponseSerialization.h */,
+				5A81EB6FEBE723EFC805911B16C7F1B2 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		D4805453787DD07397EB65AD576204BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12995DE5E7415559B2B5EE2E8C25EC43 /* Pods-MotoLight */,
+				1AC843CE6BFBC0CDC81558173958FD7B /* Pods-MotoLightTests */,
+				9EBCCCE745EF8776E29636A8AD70F105 /* Pods-MotoLightUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBF15C9FA79E39A0644571E7212DC369 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				38202B2ADC01E468CA9AB4721549B122 /* AFNetworkReachabilityManager.h */,
+				5668D81DDF9EEE515BB8CEF567445FB9 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		DEA527C664691BB6A6C9BA8965B29DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2E08D16DC65FD0CC11B880AB7B3A7A7 /* AFNetworking */,
+				2B39B29BA3775657241EEEF58D5D4323 /* RZBluetooth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE2F3EC213D901D23B06D4710A7E0218 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB4B7AAEE04E90F52CA58865E0B81C /* AFAutoPurgingImageCache.h */,
+				AC7F927B405615DC27E82927DB3D66A3 /* AFAutoPurgingImageCache.m */,
+				BB36D66893E08E7780743BE3CA32C44D /* AFImageDownloader.h */,
+				E8FCA58A157C0358A908E50A4006BA96 /* AFImageDownloader.m */,
+				C2296EA93A3895DCDB095EE64E9D8A79 /* AFNetworkActivityIndicatorManager.h */,
+				E10DD941B0F7792D4247061BF3582FBE /* AFNetworkActivityIndicatorManager.m */,
+				CFE2CDABF07572DECEEC508A20E7DB76 /* UIActivityIndicatorView+AFNetworking.h */,
+				FDFE19F22A0232B500697B53671995A4 /* UIActivityIndicatorView+AFNetworking.m */,
+				88BFF4710479DEF3DD046C34ADBBB0B4 /* UIButton+AFNetworking.h */,
+				4EE768138D6CADF198DBED58B5423321 /* UIButton+AFNetworking.m */,
+				9A34591497548F6DCE073EC285EE80B1 /* UIImage+AFNetworking.h */,
+				7D209FCD3E6866E004ADF316EDD5DF1A /* UIImageView+AFNetworking.h */,
+				ACDBAC0F2863B380B444E572247D8518 /* UIImageView+AFNetworking.m */,
+				0457A6F1B1A475D521D418467FC23C46 /* UIKit+AFNetworking.h */,
+				9551A785DD25A49D9B93AC8673676BEB /* UIProgressView+AFNetworking.h */,
+				BB108CCA271446D3DED89E43124C4304 /* UIProgressView+AFNetworking.m */,
+				DC86664D5E968D9A5058A621172DCEE4 /* UIRefreshControl+AFNetworking.h */,
+				B714CA92EC71ED553D42859B99547372 /* UIRefreshControl+AFNetworking.m */,
+				76DDA36217A5E7A0958AFD919B8EDEEB /* UIWebView+AFNetworking.h */,
+				8FEFA1A1F70F803E06205A8333327E62 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		FBCC96E5F84576C17992C978492AA67D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				33E90AC026CFEA45EE3BED36D7D076B5 /* CBService+RZBExtension.h */,
+				D52B07A973E2C77959275F98196CCB9C /* CBService+RZBExtension.m */,
+				CB9430A951E601ADC8F85F0CD2E79CA0 /* CBUUID+RZBPublic.h */,
+				046C6B5FE54F8C01A03AEBCC5A9A1B2E /* CBUUID+RZBPublic.m */,
+				8E89FA0F56872178ACC63C3C9E0D4B72 /* RZBBluetoothRepresentable.h */,
+				2F0DA6B34C0D53B1FA8DEE9214884DC2 /* RZBCentralManager.h */,
+				217AE565ADB5EF1F2D3D92473D90336A /* RZBCentralManager.m */,
+				AA9340015381270936A7CF2A1339CF25 /* RZBCentralManager+CommandHelper.h */,
+				FDD6C4BBE997682E334D3346878A907A /* RZBCentralManager+CommandHelper.m */,
+				36AF23EE0A4B2271C98F3A3D692E67D1 /* RZBCentralManager+Private.h */,
+				43ADCC40479C7CA606110F277F2FF1C6 /* RZBCommand.h */,
+				5C57F914731A022128FB06364A266FC1 /* RZBCommand.m */,
+				14D3CD32F1F14C2845BC450AA4AF10FD /* RZBCommandDispatch.h */,
+				EF2D02A2140F9B548C63F8762A395C14 /* RZBCommandDispatch.m */,
+				1461FADC12209EB22618D795DAEF0510 /* RZBDefines.h */,
+				66A1E7FB103972A235A28506E02FA109 /* RZBDeviceInfo.h */,
+				B954A0596A9E04BCD386902BCA8E0DF3 /* RZBDeviceInfo.m */,
+				D7678393B989A0D5CDDBF783DE7667DF /* RZBErrors.h */,
+				32211B731B268C857C1B61A89F59D1A5 /* RZBErrors.m */,
+				A88FA7E45A24966D4A7E6A13F29BA35F /* RZBHeartRateMeasurement.h */,
+				09AEF7E1063EA0DD42177483790C4C08 /* RZBHeartRateMeasurement.m */,
+				3109628848634518F455EC99EAADC730 /* RZBLog.h */,
+				EC3B65ADCA85BED6ACF09BA3B2AB2A0F /* RZBLog.m */,
+				83B050187F46B8D82DC6C996BCAB6364 /* RZBLog+Private.h */,
+				A64D547B834D8FDB9B2A828C09E5655E /* RZBluetooth.h */,
+				9309924DD6E56E692789FF158609B56B /* RZBPeripheral.h */,
+				37C6B8323F79D4DDB643C4B492D4C1D7 /* RZBPeripheral.m */,
+				BA674EE788BCF3745FF3C49FBD741C78 /* RZBPeripheral+Private.h */,
+				EA0D80EBCB90DE1107C3159D7692A812 /* RZBPeripheral+RZBBattery.h */,
+				A64B324E03E2C040BA35AAD58BA66419 /* RZBPeripheral+RZBBattery.m */,
+				2AA2AF10F55768A5C8D93D45E693D803 /* RZBPeripheral+RZBHeartRate.h */,
+				B3AF87F7A4D8C10E7FBC81A127142218 /* RZBPeripheral+RZBHeartRate.m */,
+				461FD33499471972F6A183808C633A4C /* RZBPeripheralStateEvent.h */,
+				CF930A6A6778F0EA65201F83C41033C3 /* RZBScanInfo.h */,
+				13C9D1BC308A0C4539C7AEED861D31ED /* RZBScanInfo.m */,
+				B98A4FC3A6BFAAA353C067308CA49445 /* RZBUserInteraction.h */,
+				A3A793B09C7B269384981A0E1C6556CF /* RZBUserInteraction.m */,
+				59AA644D5ED86814DB3479200E07800D /* RZBUUIDPath.h */,
+				AF330228892FC29112C54F28ECEB04ED /* RZBUUIDPath.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A1C2B07813030B0D51EB1D804A4439E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F93EE1AA5E870F2CE81325CE9EB643 /* AFAutoPurgingImageCache.h in Headers */,
+				6B71CE5BA32574F407349C1DA20605B4 /* AFHTTPSessionManager.h in Headers */,
+				707E818332E5033501DF2D7826C639DF /* AFImageDownloader.h in Headers */,
+				E7B0270BEDCBE116DDD853F76E27B0BA /* AFNetworkActivityIndicatorManager.h in Headers */,
+				46401F3C7FF0B0CFE2E9B14914780835 /* AFNetworking.h in Headers */,
+				DE31BBF6A7963C5871A19655EF5532BE /* AFNetworkReachabilityManager.h in Headers */,
+				D59FC98A74E440C4725B6FDC28F5951E /* AFSecurityPolicy.h in Headers */,
+				C1C0D7C93BF3DE14A26757273598D0FA /* AFURLRequestSerialization.h in Headers */,
+				66635EAAE52FF5571DBCDC626FB8CA86 /* AFURLResponseSerialization.h in Headers */,
+				F5CC06F3E0C232483A72DCCFAF393BE0 /* AFURLSessionManager.h in Headers */,
+				682B0E603612B6ADBCCF30580F9A4B09 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				2EBAA518CB8B2DAF89A63637091D4615 /* UIButton+AFNetworking.h in Headers */,
+				1341A7AC2439CB63D459D32EF985A414 /* UIImage+AFNetworking.h in Headers */,
+				D5CB999FB5FC80FC126A38AB4DF12227 /* UIImageView+AFNetworking.h in Headers */,
+				5719F06B809080CDEF7E6BC75DEA1A3C /* UIKit+AFNetworking.h in Headers */,
+				B40756412613B53C80EE77C4C223990F /* UIProgressView+AFNetworking.h in Headers */,
+				F099E5987DD80E8D78E909AF81D3C587 /* UIRefreshControl+AFNetworking.h in Headers */,
+				8958F2453EEBAF71BFEBD78FB48986EC /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA5602D43A9E9A7EFBDA0A512E0E6EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFDEE80947DB55F6B5EB093206EB1DB /* CBService+RZBExtension.h in Headers */,
+				C45FD52138E27076CB3C5F446BFAF62F /* CBUUID+RZBPublic.h in Headers */,
+				99605FB263AB200C93FDBCC6C93CAE12 /* RZBBluetoothRepresentable.h in Headers */,
+				8AE8CD58BA7DF2C281B535A52A4264C1 /* RZBCentralManager+CommandHelper.h in Headers */,
+				31742C9D0108173FBF6E404AE5F8AB4E /* RZBCentralManager+Private.h in Headers */,
+				987FA819EA682CDD5FFF0D90A172E280 /* RZBCentralManager.h in Headers */,
+				6E2992AFA3D0F374CA897DC6BA16BFAC /* RZBCommand.h in Headers */,
+				1AAA3C5CECAAEB0CF9DF2A21C0A8069B /* RZBCommandDispatch.h in Headers */,
+				9A3B68DA79D3BD6C5C8085FA106A0E78 /* RZBDefines.h in Headers */,
+				42A06298E5D2518DFA869981EC0FB0A9 /* RZBDeviceInfo.h in Headers */,
+				62F1E633F1F97E33349A6A63A26CDF0E /* RZBErrors.h in Headers */,
+				98AF0A97F0664860C195DC3F75FDD4CB /* RZBHeartRateMeasurement.h in Headers */,
+				1D6AAC40C49B5CFB8A10AD4E657F9417 /* RZBLog+Private.h in Headers */,
+				9F6E8B041DFDEFC864B793B1EF54CE68 /* RZBLog.h in Headers */,
+				BDB829531E93CE4449B34EBDE216E9A8 /* RZBluetooth.h in Headers */,
+				BEA32B13A084F919FDB3194FE6409F31 /* RZBPeripheral+Private.h in Headers */,
+				3628E865B994BBAFC3D6B31B362C2296 /* RZBPeripheral+RZBBattery.h in Headers */,
+				B8D61EF54626E119C6D9C0E453E2148C /* RZBPeripheral+RZBHeartRate.h in Headers */,
+				A853ADA3217884F793DCE3AAB8AEBD4C /* RZBPeripheral.h in Headers */,
+				462D20F90BE0A6A28E05014E970EFA91 /* RZBPeripheralStateEvent.h in Headers */,
+				575934675F148FCA60496B76DF0DB55D /* RZBScanInfo.h in Headers */,
+				079E2EB330A4879538C4F314AAA636E5 /* RZBUserInteraction.h in Headers */,
+				82838FE36F075285FC0C6112407DF403 /* RZBUUIDPath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46555D715BC7FFEAA5AA11993F372944 /* Pods-MotoLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E264C95B95168391C44B2715993874 /* Build configuration list for PBXNativeTarget "Pods-MotoLightUITests" */;
+			buildPhases = (
+				59439E09125D3117DC953FF8178C4FDA /* Sources */,
+				FD318C3597F097EA017212AC0591FA79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MotoLightUITests";
+			productName = "Pods-MotoLightUITests";
+			productReference = 80FB8F0B0E94922BF6042F17BF9E7FB9 /* libPods-MotoLightUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7452D8B66E97E017BA5131C563F46999 /* RZBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF854196709DB79976AD71BB6F95B89C /* Build configuration list for PBXNativeTarget "RZBluetooth" */;
+			buildPhases = (
+				3A447898C2B125D82B0084E4401C84E8 /* Sources */,
+				D2B8C7FB9F57E426659796A2C3871C38 /* Frameworks */,
+				CBA5602D43A9E9A7EFBDA0A512E0E6EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZBluetooth;
+			productName = RZBluetooth;
+			productReference = DE441A9905A2F0A076418B7FDDA27D31 /* libRZBluetooth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E033EDB5EC0819481B0546434FA577B /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483FBC4A668BF7F1A8767452E7E188AC /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				0068413C89BADAAF4691AA78AFE62C3E /* Sources */,
+				F3284DBE3CA8932733932AD2A48445B2 /* Frameworks */,
+				0A1C2B07813030B0D51EB1D804A4439E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = E4D119D56BA340B6EE74444E334B6FE1 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D64B289D4E161FDADD8AA2EAF867FB20 /* Pods-MotoLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662F032DEA2736F5F88C3D7C2015031B /* Build configuration list for PBXNativeTarget "Pods-MotoLight" */;
+			buildPhases = (
+				168F33B3EE8B603519974D96D9C67EF5 /* Sources */,
+				916833AC790E01669CEF426108187139 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD896544CD6EDF3EE2B1DB514862CEB3 /* PBXTargetDependency */,
+				935B05555493536761464D6AF590BF96 /* PBXTargetDependency */,
+			);
+			name = "Pods-MotoLight";
+			productName = "Pods-MotoLight";
+			productReference = 1ABAC12C04797309DFE5DDBCFA543A0D /* libPods-MotoLight.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9586501C3BFB6DF5E9D0D39D6B66803 /* Pods-MotoLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0010632C7D959CFA8A956C41954B90 /* Build configuration list for PBXNativeTarget "Pods-MotoLightTests" */;
+			buildPhases = (
+				31C56F271A1C3FFD666FB4A4BE834ACF /* Sources */,
+				41EA2AFA9B6DEDBF3BB82088D26C3202 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MotoLightTests";
+			productName = "Pods-MotoLightTests";
+			productReference = 0138A08C748CB42C76A154E6FBE73E10 /* libPods-MotoLightTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0FFA4D2190EAB0A2FE3696480E896AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E033EDB5EC0819481B0546434FA577B /* AFNetworking */,
+				D64B289D4E161FDADD8AA2EAF867FB20 /* Pods-MotoLight */,
+				F9586501C3BFB6DF5E9D0D39D6B66803 /* Pods-MotoLightTests */,
+				46555D715BC7FFEAA5AA11993F372944 /* Pods-MotoLightUITests */,
+				7452D8B66E97E017BA5131C563F46999 /* RZBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0068413C89BADAAF4691AA78AFE62C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775CE7A8107457BDE59F113D40020839 /* AFAutoPurgingImageCache.m in Sources */,
+				73811DA312BCB537D44D62EC6AD15766 /* AFHTTPSessionManager.m in Sources */,
+				5C0696B2AD1DC23F6473F5A19FAB6296 /* AFImageDownloader.m in Sources */,
+				31ED9BD97AF9E62874AF3CDF2F8090CF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				97A86FAAD4B1AD9B3292FF6AF1D8F82B /* AFNetworking-dummy.m in Sources */,
+				E0EF330DB2D3521ED26E67B2E8687A2E /* AFNetworkReachabilityManager.m in Sources */,
+				66E1040543AF7BA3DC3731FE17C85F5B /* AFSecurityPolicy.m in Sources */,
+				5945033488F9995134DBB7014DE2412F /* AFURLRequestSerialization.m in Sources */,
+				85D30678FF4F0AB306399A368EAA46B2 /* AFURLResponseSerialization.m in Sources */,
+				9F5BB6B4995BA4A3B2C6AEBA6C31A6DB /* AFURLSessionManager.m in Sources */,
+				2579663181BFA8F7DA4B5D7CF8537FC0 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				D10CC46035F7A0C868C0955664A34609 /* UIButton+AFNetworking.m in Sources */,
+				A277AD9070E44BED5A7DE0B1D64D6F15 /* UIImageView+AFNetworking.m in Sources */,
+				D4AA4704CA7863CC86E22AAF88635836 /* UIProgressView+AFNetworking.m in Sources */,
+				B84CD33084C9867E67BD56E47B7BFC04 /* UIRefreshControl+AFNetworking.m in Sources */,
+				A7F7FDCD36E2DD8D8E346DB19452CC03 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168F33B3EE8B603519974D96D9C67EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A67AE4A8B67BD10645C683F87C00176 /* Pods-MotoLight-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C56F271A1C3FFD666FB4A4BE834ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE2C1CED8796501CD35DE92DFBE910F /* Pods-MotoLightTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A447898C2B125D82B0084E4401C84E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D667D91CF58008B0C2B899D95B1A4400 /* CBService+RZBExtension.m in Sources */,
+				416250AD30B4A2A2C18C2EC149AEA83E /* CBUUID+RZBPublic.m in Sources */,
+				76C850E0D8D399352D905254A8C18819 /* RZBCentralManager+CommandHelper.m in Sources */,
+				ACD70D56EA98DCE1E4D84B21F499DDBE /* RZBCentralManager.m in Sources */,
+				B1CF639B9F1B76A320A8DB4C0D342659 /* RZBCommand.m in Sources */,
+				54F59E9535A8EF3C3999C485DC63AF4B /* RZBCommandDispatch.m in Sources */,
+				EBC3EB515F669AA14234CA1BE510601D /* RZBDeviceInfo.m in Sources */,
+				5FA5D318AA9604692977CDB065CE001B /* RZBErrors.m in Sources */,
+				607A6CB570FEADE7F1C79017D6C73D45 /* RZBHeartRateMeasurement.m in Sources */,
+				247D9B113129BCEDABFEE6557981DCFF /* RZBLog.m in Sources */,
+				72DA908495E91BD2FC2BC2B0711D5DA0 /* RZBluetooth-dummy.m in Sources */,
+				DB9E13F97A6B692106FCCD18AFB6E119 /* RZBPeripheral+RZBBattery.m in Sources */,
+				D145CE8EF449A6058045F178045C827D /* RZBPeripheral+RZBHeartRate.m in Sources */,
+				23DC78E30FE81EA1D14E30C897245F31 /* RZBPeripheral.m in Sources */,
+				B017529986D4D5396C9E620070F559CB /* RZBScanInfo.m in Sources */,
+				E4C87B5BB5457B0A1F743CB6ED87C24A /* RZBUserInteraction.m in Sources */,
+				01172FC25DC192BF01C47B4440669112 /* RZBUUIDPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59439E09125D3117DC953FF8178C4FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F0E89C282F470546F562E81AB524FD /* Pods-MotoLightUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		935B05555493536761464D6AF590BF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RZBluetooth;
+			target = 7452D8B66E97E017BA5131C563F46999 /* RZBluetooth */;
+			targetProxy = 62A7529995F59C09F22B9829668769B8 /* PBXContainerItemProxy */;
+		};
+		FD896544CD6EDF3EE2B1DB514862CEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 9E033EDB5EC0819481B0546434FA577B /* AFNetworking */;
+			targetProxy = 22899A87A1A787013CBBFCBBADF072EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34F433A71280EB76A79D98B1C0985823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E7805151FF2B897953AE088C0AFEAE /* RZBluetooth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RZBluetooth/RZBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4DDBC339526A5998C6C9FCA87677554F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039DBF8A33C99B4B0ACAF03A74D8098E /* Pods-MotoLight.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72D1B831316303C2E356BBAC53FEF78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3E67B590ED546F9E29DA6FE95BE6D3 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8A8D36B948E0321756B2AC94318AB037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5B5BF2DEA6EE7D821D285FF0B04C3E /* Pods-MotoLightUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B217F10D32D3B7C09A9C7B3B883B2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF094CD73AA5EABB382524EBF9B2B0ED /* Pods-MotoLightTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		940CDF52272DE4EDB22F143F7E161AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F0DAE4489ACAF3A5C6379E3A209C7F /* Pods-MotoLightTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4025BE03B3302B5346CCDD25CB90BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6406AB434C9410254AC53231E4370F8 /* Pods-MotoLightUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D47EE09316DDAFEE01FBAEF2590BFF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E7805151FF2B897953AE088C0AFEAE /* RZBluetooth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RZBluetooth/RZBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8B788B6125E3FEC08A808B6C41C7BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E6CBFF6C232EF2EFC6C72C5BEEB612 /* Pods-MotoLight.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF778088B62C05BE1205DAE628D151DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3E67B590ED546F9E29DA6FE95BE6D3 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E264C95B95168391C44B2715993874 /* Build configuration list for PBXNativeTarget "Pods-MotoLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4025BE03B3302B5346CCDD25CB90BBA /* Debug */,
+				8A8D36B948E0321756B2AC94318AB037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483FBC4A668BF7F1A8767452E7E188AC /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF778088B62C05BE1205DAE628D151DF /* Debug */,
+				72D1B831316303C2E356BBAC53FEF78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662F032DEA2736F5F88C3D7C2015031B /* Build configuration list for PBXNativeTarget "Pods-MotoLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDBC339526A5998C6C9FCA87677554F /* Debug */,
+				F8B788B6125E3FEC08A808B6C41C7BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0010632C7D959CFA8A956C41954B90 /* Build configuration list for PBXNativeTarget "Pods-MotoLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940CDF52272DE4EDB22F143F7E161AC3 /* Debug */,
+				8B217F10D32D3B7C09A9C7B3B883B2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF854196709DB79976AD71BB6F95B89C /* Build configuration list for PBXNativeTarget "RZBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47EE09316DDAFEE01FBAEF2590BFF5E /* Debug */,
+				34F433A71280EB76A79D98B1C0985823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
